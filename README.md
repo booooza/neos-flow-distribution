@@ -1,8 +1,5 @@
-# build
-docker build -t neos-flow ops/neos
-
 # run
-docker run neos-flow
+docker-compose up
 
 # connect
 docker exec -it $(docker ps --latest --quiet) bash
