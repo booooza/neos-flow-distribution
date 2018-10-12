@@ -19,8 +19,5 @@ RUN a2enmod rewrite
 COPY ops/neos/neos-flow-dev.conf /etc/apache2/conf-enabled/neos-flow.conf
 COPY ops/neos/neos-flow-prod.conf /etc/apache2/conf-enabled/neos-flow.conf
 
-# Copy app code
-COPY app/neos/ /var/www/html
-
 # Make port 80 available
 EXPOSE 80

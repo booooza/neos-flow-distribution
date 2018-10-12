@@ -4,5 +4,18 @@ services:
     build:
       context: .
       dockerfile: ./ops/neos/Dockerfile
+    volumes:
+      - ./app/neos:/var/www/html
     ports:
       - 80:80
+    links:
+      - db
+    depends_on:
+      - db
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: demo
+      MYSQL_DATABASE: demo
+      MYSQL_USER: demo
+      MYSQL_PASSWORD: demo
