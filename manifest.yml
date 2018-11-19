@@ -1,0 +1,9 @@
+---
+applications:
+    - name: neos-flow-demo
+      buildpack: php_buildpack
+      memory: 128M
+      instances: 1
+      host: neos-flow
+      services:
+        - db
