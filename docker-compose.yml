@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: ./ops/neos/Dockerfile
     volumes:
-      - ./app/neos:/var/www/html
+      - ./:/var/www/html
     ports:
       - 80:80
     links:
