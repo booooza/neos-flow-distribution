@@ -1,6 +1,5 @@
 {
     "WEBDIR": "Web",
     "PHP_VERSION": "{PHP_71_LATEST}",
-    "PHP_EXTENSIONS": ["bz2","zlib","curl","mcrypt", "mbstring", "tokenizer", "pdo", "pdo_mysql"],
     "ADMIN_EMAIL": "booooza@gmail.com"
 }
