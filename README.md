@@ -1,8 +1,13 @@
-# run
+# develop
+## run
 docker-compose up
 
-# connect
+## connect
 docker exec -it $(docker ps --latest --quiet) bash
 
-# remove
+## remove
 docker rm $(docker ps -a -q)
+
+# deploy
+cf login
+cf push
