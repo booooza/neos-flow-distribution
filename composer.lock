@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dd1988b2737307554854188767a1d48",
+    "content-hash": "1c854531f5a84387c21a884589a9bacd",
     "packages": [
         {
             "name": "booooza/neos-flow-acme-blog",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/booooza/neos-flow-acme-blog.git",
+                "url": "https://github.com/booooza/neos-flow-acme-blog",
                 "reference": "d9d61d164189a33f2e6a51f82ad5cd084f19e3b4"
             },
             "require": {
