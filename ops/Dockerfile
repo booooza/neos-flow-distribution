@@ -1,6 +1,6 @@
 # Dockerized development setup for Neos Flow
 # Uses Debian, Apache and PHP7.2
-FROM php:5.6-apache
+FROM php:7.1-apache
 LABEL maintainer="booooza@gmail.com"
 
 # System dependencies
