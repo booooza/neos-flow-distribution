@@ -43,8 +43,14 @@
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
     },
     "scripts": {
-        "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
-        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-update-cmd": [
+            "Booooza\\CloudFoundry\\Composer\\InstallerScripts::postUpdateAndInstall",
+            "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall"
+        ],
+        "post-install-cmd": [
+            "Booooza\\CloudFoundry\\Composer\\InstallerScripts::postUpdateAndInstall",
+            "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall"
+        ],
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
         "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
     }

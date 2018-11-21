@@ -36,7 +36,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/booooza/neos-flow-cloudfoundry",
-                "reference": "cde542b5dd2c8f3619bc04ae0cabe4cd8dddbfd6"
+                "reference": "4562e23cd1599e740146197c2cad1184872ac3f5"
             },
             "require": {
                 "neos/flow": "*"
@@ -52,7 +52,7 @@
                     "Booooza\\CloudFoundry\\": "Classes/"
                 }
             },
-            "time": "2018-11-20T18:01:00+00:00"
+            "time": "2018-11-21T09:18:49+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -661,16 +661,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.6.2",
+            "version": "v2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8"
+                "reference": "434820973cadf2da2d66e7184be370084cc32ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
-                "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/434820973cadf2da2d66e7184be370084cc32ca8",
+                "reference": "434820973cadf2da2d66e7184be370084cc32ca8",
                 "shasum": ""
             },
             "require": {
@@ -739,7 +739,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2018-07-12T20:47:13+00:00"
+            "time": "2018-11-20T23:46:46+00:00"
         },
         {
             "name": "neos/cache",
