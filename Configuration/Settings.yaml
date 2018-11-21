@@ -1,0 +1,15 @@
+Neos:
+  Flow:
+    persistence:
+      backendOptions:
+        driver: 'pdo_mysql'
+        charset: 'utf8mb4'
+        host: '%env:DB_HOST%'
+        dbname: '%env:DB_NAME%'
+        user: '%env:DB_USER%'
+        password: '%env:DB_PASSWORD%'
+    mvc:
+      routes:
+        'Acme.Blog': TRUE
+    core:
+      phpBinaryPathAndFilename: '%env:PHP_PATH%'

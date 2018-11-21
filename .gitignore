@@ -4,7 +4,6 @@
 .git/
 /bin/
 /Build/
-/Configuration/**/Settings.yaml*
 /Configuration/**/Caches.yaml*
 /Configuration/**/*.php
 /Configuration/*.php
