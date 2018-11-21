@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4393d9615c3ea621b0c391dab2a184f9",
+    "content-hash": "3ec988f0ea87bbb19834e2b4b7c4abc5",
     "packages": [
         {
             "name": "booooza/neos-flow-acme-blog",
@@ -29,30 +29,6 @@
                 }
             },
             "time": "2018-11-19T16:12:16+00:00"
-        },
-        {
-            "name": "booooza/neos-flow-cloudfoundry",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/booooza/neos-flow-cloudfoundry",
-                "reference": "4562e23cd1599e740146197c2cad1184872ac3f5"
-            },
-            "require": {
-                "neos/flow": "*"
-            },
-            "type": "neos-package",
-            "extra": {
-                "neos": {
-                    "package-key": "Booooza.CloudFoundry"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Booooza\\CloudFoundry\\": "Classes/"
-                }
-            },
-            "time": "2018-11-21T09:18:49+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -3836,7 +3812,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "booooza/neos-flow-acme-blog": 20,
-        "booooza/neos-flow-cloudfoundry": 20,
         "neos/kickstarter": 20,
         "neos/buildessentials": 20,
         "neos/behat": 20
