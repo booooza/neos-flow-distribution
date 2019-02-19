@@ -4,12 +4,12 @@ Neos:
       backendOptions:
         driver: 'pdo_mysql'
         charset: 'utf8mb4'
-        host: '%env:DB_HOST%'
-        dbname: '%env:DB_NAME%'
-        user: '%env:DB_USER%'
-        password: '%env:DB_PASSWORD%'
+        host: '%env:NEOS_FLOW_DEMO_DB_HOST%'
+        dbname: '%env:NEOS_FLOW_DEMO_DB_NAME%'
+        user: '%env:NEOS_FLOW_DEMO_DB_USERNAME%'
+        password: '%env:NEOS_FLOW_DEMO_DB_PASSWORD%'
     mvc:
       routes:
         'Acme.Blog': TRUE
     core:
-      phpBinaryPathAndFilename: '%env:PHP_PATH%'
+      phpBinaryPathAndFilename: '/home/vcap/app/php/bin/php'
